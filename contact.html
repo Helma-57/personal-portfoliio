@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Helma Makhubele</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+          <span>Helma Makhubele</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <a href="index.html">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <a href="education.html">Education</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <a href="skills.html">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <a href="projects.html">Projects</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
+            <a href="certificate.html">Certificates</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="education.html">Education</a>
+          <a href="skills.html">Skills</a>
+          <a href="projects.html">Projects</a>
+          <a href="certificate.html">Certificates</a>
+          <a href="contact.html">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <main class="contact-main">
+      <h1 class="section-title" data-aos="fade-up" data-aos-duration="1000">
+        Get in Touch
+      </h1>
+
+      <div class="contact-full">
+        <div
+          class="contact-section"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <h2>Reach Me</h2>
+          <div class="border-line"></div>
+
+          <div class="cs-item" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="text">
+              <div class="placeHolder">E-mail</div>
+              <div class="info">
+                <a href="makhubelehelma@gmail.com"
+                  >makhubelehelma@gmail.com</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="cs-item"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <div class="icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="text">
+              <div class="placeHolder">Phone</div>
+              <div class="info">
+                <a href="tel:+27661817219">+27 66 181 7219</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="cs-item"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <div class="icon">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="text">
+              <div class="placeHolder">GitHub</div>
+              <div class="info">
+                <a href="https://github.com/Helma-57" target="_blank"
+                  >github.com/Helma-57</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="cs-item"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <div class="icon">
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="text">
+              <div class="placeHolder">LinkedIn</div>
+              <div class="info">
+                <a
+                  href="https://www.linkedin.com/in/helma-makhubele-963337246/"
+                  target="_blank"
+                  >LinkedIn Profile</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <section
+          class="contact-form"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <h2>Contact Me</h2>
+          <div class="border-line"></div>
+
+          <form id="contact-form" class="form-section">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" id="contact-submit" class="contact-button">
+              <div class="submit-text">Submit</div>
+            </button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">Helma Makhubele</div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="education.html">Education</a>
+          <a href="skills.html">Skills</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/Helma-57" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/helma-makhubele-963337246/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="makhubelehelma@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+          <a href="tel:+27661817219"><i class="fa-solid fa-phone"></i></a>
+        </div>
+        <p>&copy; 2025 Helma Makhubele. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+
+    <script>
+      function hamburg() {
+        const navbar = document.querySelector(".dropdown");
+        navbar.style.transform = "translateY(0px)";
+      }
+      function cancel() {
+        const navbar = document.querySelector(".dropdown");
+        navbar.style.transform = "translateY(-500px)";
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+      window.onload = function () {
+        emailjs.init("xnfDcKCMxdhDjQFC7"); // Replace with your EmailJS User ID
+      };
+
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          // Collect form data
+          let formData = {
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            message: document.getElementById("message").value,
+          };
+
+          // Send email using EmailJS
+          emailjs.send("service_nkn4kz9", "template_fpnmw39", formData).then(
+            function () {
+              alert("Message sent successfully! Check your Gmail inbox.");
+              document.getElementById("contact-form").reset();
+            },
+            function (error) {
+              alert("Failed to send message. Please try again.");
+              console.error("Email sending error:", error);
+            }
+          );
+        });
+    </script>
+  </body>
+</html>

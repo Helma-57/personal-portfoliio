@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education - Helma Makhubele</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+          <span>Helma Makhubele</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <a href="index.html">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <a href="education.html">Education</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <a href="skills.html">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <a href="projects.html">Projects</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
+            <a href="certificate.html">Certificates</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="education.html">Education</a>
+          <a href="skills.html">Skills</a>
+          <a href="projects.html">Projects</a>
+          <a href="certificate.html">Certificates</a>
+          <a href="contact.html">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <div class="page">
+      <main class="education-main">
+        <h1 class="section-title" data-aos="fade-up" data-aos-duration="1000">
+          My Education
+        </h1>
+        <div class="education-section">
+          <!-- Bachelor's Degree -->
+          <div class="study" data-aos="fade-right" data-aos-duration="1000">
+            <div class="image">
+              <img src="assets/CPUT.jpg" alt="Cape Peninsula University of Technology" />
+            </div>
+            <div class="texts">
+              <div class="header">Diploma in Information Communication Technology</div>
+              <div class="name">Cape Peninsula University of Technology (CPUT)</div>
+              <div class="year">2022 - 2024</div>
+              <div class="text">
+                Specialized in
+                <strong> Communication Networks</strong>. Gained expertise
+                in UX/UI design, Web Design, Application development Fundamentals, System and Security,
+                Network concepts including Modern Technologies.
+              </div>
+            </div>
+          </div>
+
+          <!-- Advanced Level -->
+          <div class="study" data-aos="fade-left" data-aos-duration="1000">
+            <div class="image">
+              <img src="assets/school1.jpg" alt="Fidelitas Comprehensive School" />
+            </div>
+            <div class="texts">
+              <div class="header">Matric</div>
+              <div class="name">Fidelitas Comprehensive School</div>
+              <div class="year">2019</div>
+            </div>
+          </div>
+
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">Helma Makhubele</div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="education.html">Education</a>
+          <a href="skills.html">Skills</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/Helma-57" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/helma-makhubele-963337246/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="makhubelehelma@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+          <a href="tel:+27661817219"><i class="fa-solid fa-phone"></i></a>
+        </div>
+        <p>&copy; 2025 Helma Makhubele. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script>
+      function hamburg() {
+        const navbar = document.querySelector(".dropdown");
+        navbar.style.transform = "translateY(0px)";
+      }
+      function cancel() {
+        const navbar = document.querySelector(".dropdown");
+        navbar.style.transform = "translateY(-500px)";
+      }
+    </script>
+  </body>
+</html>
