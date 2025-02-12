@@ -12,7 +12,11 @@ body {
   width: 100%;
   min-height: 100vh; /* Changed from height: 100vh to min-height */
   overflow-x: hidden; /* Allows vertical scrolling */
+<<<<<<< HEAD
   background: linear-gradient(to right, #ffcce6(255, 255, 255),#ffcce6(254, 215, 173));
+=======
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(254, 215, 173));
+>>>>>>> 512972e66463afe605e72f2310722700ed111a91
 }
 
 nav {
@@ -28,13 +32,22 @@ nav {
   align-items: center;
 }
 .logo {
+<<<<<<< HEAD
   color:#ffcce6;
+=======
+  color: black;
+>>>>>>> 512972e66463afe605e72f2310722700ed111a91
   font-size: 2rem;
   font-weight: bolder;
 }
 .logo span {
+<<<<<<< HEAD
   color: #ffcce6(109, 67, 0);
   text-shadow: 0 0 10px #ffcce6(109, 67, 0);
+=======
+  color: rgb(109, 67, 0);
+  text-shadow: 0 0 10px rgb(109, 67, 0);
+>>>>>>> 512972e66463afe605e72f2310722700ed111a91
 }
 .hamburg,
 .cancel {
@@ -156,7 +169,11 @@ section {
   transition: 0.3s linear;
 }
 .typewriter span::before {
+<<<<<<< HEAD
   content: "DevOps.";
+=======
+  content: "Developer.";
+>>>>>>> 512972e66463afe605e72f2310722700ed111a91
   animation: words 15s infinite;
 }
 .typewriter span::after {
@@ -175,6 +192,7 @@ section {
 @keyframes words {
   0%,
   33% {
+<<<<<<< HEAD
     content: "DevOps Engineer.";
   }
   34%,
@@ -184,6 +202,17 @@ section {
   67%,
   100% {
     content: "Network Engineer.";
+=======
+    content: "Student.";
+  }
+  34%,
+  66% {
+    content: "Designer";
+  }
+  67%,
+  100% {
+    content: "Developer.";
+>>>>>>> 512972e66463afe605e72f2310722700ed111a91
   }
 }
 .content p {
@@ -417,7 +446,11 @@ html {
 body {
   width: 100%;
   min-height: 100vh;
+<<<<<<< HEAD
   background: linear-gradient(to right, #ffcce6(255, 255, 255), rgb(254, 215, 173));
+=======
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(254, 215, 173));
+>>>>>>> 512972e66463afe605e72f2310722700ed111a91
 }
 
 /* Navigation */
@@ -1104,6 +1137,7 @@ footer p {
     font-size: 14px;
   }
 }
+<<<<<<< HEAD
 /* Chatbot  */
 
 #chatbot {
@@ -1203,3 +1237,5 @@ footer p {
   font-size: 24px;
 }
 
+=======
+>>>>>>> 512972e66463afe605e72f2310722700ed111a91
